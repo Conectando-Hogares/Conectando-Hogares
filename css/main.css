@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#navbarSupportedContent a{
+    font-size: large;
+}
+
+#navbarSupportedContent a:hover{
+    color: #9DCB06;
+}
+
+
+
+/* weas */
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #56ab2f;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,  #56ab2f, #a8e063) linear-gradient(to right, #56ab2f60, #a8e063), url(../img/posible\ img\ home2.jpg);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #56ab2f60, #a8e06340), url(../img/posible\ img\ home2.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+header .textos-header{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color: #ffffff;
+}
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/*color azul para patitas #34B4BF*/
+
+.fa-paw{
+    color: #34b4bf;
+}
+
+
+#logonavbar{
+    margin-left: 40px;
+}
+
+.listanavbar{
+    margin-left: 70px;
+}
+
+
+.footer i{
+    color: #fff;
+}
+
+.footer p{
+    color: #fff;
+}
+
+#contenedorfacedog{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.tarjetafacedog{
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 400px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.limiteimg{
+    max-width: 400px;
+    max-height: 400px;
+    align-items: center;
+    align-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.tarjetafacedog a:hover{
+    text-decoration: none;
+}
+
+#imghome{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footer{
+    display: block;
+    background-color: #9DCB06;
+    height: 24vh;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+#contenedoriconos{
+    padding-right: 75px;
+}
+
+#contenedorderechos{
+    padding-left: 75px;    
+}
+
+#contenedorfooter{
+    padding-top: 100px;
+}
+
+#homech{
+    display: flex;
+}
+
+.centrarweas{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 0 300px;
+}
+
+.centraopa{
+    align-items: center;
+    align-content: center;
+    margin: 0 300px;
+}
+
+#homeimg{
+    display: flex;
+}
+
+#homepalabras{
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #fff;
+}
+
+#nosotrosimgs{
+    display: flex;
+}
+
+.textonosotros{
+    align-content: center;
+    align-items: center;
+}
+
+.nimg{
+    display: flex;/* 
+    margin-left: 50px;
+    margin-right: 50px; */
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.cimg{
+    display: flex;
+    margin: 0px 150px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.textocampaña {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 150px;
+}
+
+#textojustificaciondeproyecto{
+    justify-content: left;
+}
+
+.textojustificadoizquierda {
+    justify-content: left;
+    text-align: left;
+    justify-items: left;
+    text-justify: left;
+}
+
+.tamañocarrusel{
+    margin-top: 20px;
+    align-items: center;
+    align-content: center;
+    max-width: 40rem;
+    max-height: 40rem;
+}
+
+.card-title{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card-text{
+    text-align: center;
+    margin-top: 5px;
+}
+
+/*nosotros, parte inferior */
+
+#nosotrossect1{
+    display: flex;
+}
+
+#sectimg1{
+    display: flex;
+}
+
+#imgnosotros1{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#nosotrostext1{
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #fff;
+}
+
+#nosotrossect2{
+    display: flex;
+}
+
+#sectimg2{
+    display: flex;
+}
+
+#imgnosotros2{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#nosotrostext2{
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #fff;
+}
+
+/*fin nosotros*/
+
+
+/*contacto*/
+
+#contenedormapa{
+    font-size: large;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+}
+
+#mapamau{
+    align-items: center;
+    align-content: center;
+    border: 50px;
+    border-radius: 15px;
+    border-color: #BDD7DD;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+}
+
+.textocontacto{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#contenedor-formulario {
+    border-radius: 5px;
+    max-width: 500px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#cambiobtn p{
+    color: #9DCB06;    
+}
+
+/*campaña*/
+
+#imgsgrupo{
+    align-items: center;
+    align-content: center;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+
+
+
+#principal{
+    background-image: url(../img/pataspeludas-verde1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*fin campaña*/
+
+
+
+/*fin contacto*/
+
+
+.manito {
+    cursor: pointer;
+}
+
+
+
+
+/*queries*/
+
+/*extra small devices(i dont know)*/
+@media (min-width: 500px) and (max-width: 800px) { 
+    .footer{
+        height: 29vh;
+    }
+    .cimg{
+        display: flex;
+        margin: 0px 75px;
+        margin-bottom: 10px;
+        align-items: center;
+    }
+    
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 900px){ 
+    .cimg{
+        display: flex;
+        margin: 0px 75px;
+        margin-bottom: 10px;
+        align-items: center;
+    }
+    .centrarweas{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        margin: 0 0px;
+        padding: 0 20px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 950px) { 
+    .footer{
+        height: 28vh;
+    }
+    .centrarweas{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        margin: 0 15px;
+        padding: 0 25px;
+    }
+    
+    
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    .footer{
+        height: 32vh;
+    }
+    .centrarweas{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        margin: 0 20px;
+    }
+    
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1500px){ 
+    .nimg{ 
+        margin-left: 5px;
+        margin-right: 15px;
+    }
+
+    .centrarweas{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        margin: 0 0px;
+    }
+
+    .cimg{
+        display: flex;
+        margin: 0px 100px;
+        margin-bottom: 10px;
+        align-items: center;
+    }
+
+    .textocampaña {
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0px 100px;
+    }
+
+    .img-familiamau{
+        max-width: 15rem;
+    }
+
+    /* /* #CajaVideoInicio{
+        max-width: 15rem;
+    }
+ */
+    #VideoInicio{
+        min-width: 40rem;
+        -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    } 
+
+    /* #CajaVideoNosotros{
+        max-width: 15rem;
+    }
+
+    #VideoNosotros{
+        max-width: 15rem;
+    } */ 
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) and (max-width: 1600px){ 
+    
+}
+
+
+
