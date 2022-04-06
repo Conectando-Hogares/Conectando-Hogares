@@ -348,7 +348,7 @@ header .textos-header{
 /*extra small devices(i dont know)*/
 @media (min-width: 500px) and (max-width: 800px) { 
     .footer{
-        height: 29vh;
+        height: 37vh;
     }
     .cimg{
         display: flex;
@@ -377,9 +377,9 @@ header .textos-header{
 }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 950px) { 
+@media (min-width: 768px) and (max-width: 991px) { 
     .footer{
-        height: 28vh;
+        height: 37vh;
     }
     .centrarweas{
         display: flex;
@@ -395,7 +395,7 @@ header .textos-header{
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
     .footer{
-        height: 32vh;
+        height: 37vh;
     }
     .centrarweas{
         display: flex;
