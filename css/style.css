@@ -39,9 +39,9 @@
 
 /* line 19, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_extend.scss */
 .boxed-btn3 {
-  background-image: -moz-linear-gradient(0deg, #8ec586 0%, #ed5b0d 99%);
-  background-image: -webkit-linear-gradient(0deg, #8ec586 0%, #ed5b0d 99%);
-  background-image: -ms-linear-gradient(0deg, #8ec586 0%, #ed5b0d 99%);
+  background-image: -moz-linear-gradient(0deg, #8ec586 0%, #8ec586 99%);
+  background-image: -webkit-linear-gradient(0deg, #8ec586 0%, #8ec586 99%);
+  background-image: -ms-linear-gradient(0deg, #8ec586 0%, #8ec586 99%);
 }
 
 /* Normal desktop :1200px. */
